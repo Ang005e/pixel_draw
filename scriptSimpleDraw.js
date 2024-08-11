@@ -10,7 +10,7 @@ let _drawButtonActive;
 let _mouseDown;
 let _eraseButtonActive;
 let _action = "coloured";
-let _type = "– oh shit. something seems wrong..."
+let _type = "– oh no. something seems wrong..."
 
 let r = 0;
 let g = 35;
@@ -182,17 +182,6 @@ function toggleState(activeButton, state) {
             _redButton.style.backgroundColor = "lightcoral";
             return;
     }
-
-    // I forgot what this was supposed to do halfway through writing it lol
-    /*
-    let buttons = [_drawOnOffButton, _eraseOnOffButton]
-    for (let button of buttons) {
-        if (button !== activeButton) {
-            button.style.backgroundColor = "lightcoral";
-            button = false
-        }
-    }
-*/
 
 }
 
