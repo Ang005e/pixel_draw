@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en" onmousedown="onButtonEvent(0)" onmouseup="onButtonEvent(1)">
+    <head>
+        <meta charset="UTF-8">
+        <title>MyJSPlayground</title>
+        <script src="scriptSimpleDraw.js" defer="defer"></script>
+        <link rel="stylesheet" href="theme.css">
+    </head>
+    <body>
+        <div id="title-div">
+            <h1 id="title">PixKool</h1>
+        </div>
+
+        <section id="button-section">
+            <!--
+            <button id="button1" type="button" onclick="posPressCount++">Add a Click</button>
+            <button id="button2" type="button" onclick="negPressCount++">Subtract a Click</button>
+            <button id="button3" type="button" onclick="pressTracker(posPressCount, negPressCount)">Count your clicks!</button>
+            -->
+
+            <!--
+            button[id=button$ type=button onmouseover={mouseEventLogger($)}]*200
+            -->
+        </section>
+        <aside>
+            <h1 id="message-display">
+                hi
+            </h1>
+            <button id="draw-on-off-button" type="button" onclick="onButtonEvent(2)">Draw</button>
+            <button id="erase-on-off-button" type="button" onclick="onButtonEvent(3)">Erase</button>
+            <button id="clear-page" type="button" onclick="onButtonEvent(4)">Clear All</button>
+            <button id="clear-shades" type="button" onclick="onButtonEvent(5)">Clear Shading</button>
+
+            <button id="red-button" type="button" onclick="onButtonEvent(6)">RED</button>
+            <button id="green-button" type="button" onclick="onButtonEvent(7)">GREEN</button>
+            <button id="blue-button" type="button" onclick="onButtonEvent(8)">BLUE</button>
+        </aside>
+
+    </body>
+</html>
