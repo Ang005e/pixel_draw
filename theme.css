@@ -24,7 +24,7 @@
     top: -4vh;
 }
 #title {
-    font-family: "Trebuchet MS";
+    font-family: "Trebuchet MS", sans-serif;
     font-size: 70px;
     position: relative;
     text-align: center;
